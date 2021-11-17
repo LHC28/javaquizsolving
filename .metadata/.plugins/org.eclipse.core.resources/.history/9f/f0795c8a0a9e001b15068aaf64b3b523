@@ -1,0 +1,11 @@
+package variable_quiz;
+
+public class ½ÇÇè5 {
+
+	public static void main(String[] args) {
+		char a = 3;          
+		System.out.println((int)(a/6)); 
+		System.out.println((int)a/6);   
+	}
+
+}

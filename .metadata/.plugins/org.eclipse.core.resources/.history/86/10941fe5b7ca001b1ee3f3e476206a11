@@ -1,0 +1,18 @@
+package 문제2;
+
+public class Bird {
+
+	private int size;
+	
+	Bird(int size){
+		this.size = size;
+	}
+	
+	public void twitter() {
+		System.out.println("지저귑니다.");
+	}
+	
+	public void getSize() {
+		return this.size;
+	}
+}

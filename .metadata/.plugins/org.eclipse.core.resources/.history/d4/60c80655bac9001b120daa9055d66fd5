@@ -1,0 +1,29 @@
+package 연습용;
+
+import java.util.Random;
+
+public class quiz1 {
+
+	public static void main(String[] args) {
+
+		Random ran = new Random();
+		
+		String[] name = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
+		
+		int participants = ran.nextInt(100000)+1;
+		int[] participant = new int[participants];
+		int[] completion = new int[participants-1];
+		
+		int count = 0;
+		while(count<participants) {
+			if(count == participants) {
+				break;
+			}
+			else {
+				int nameNum = ran.nextInt(20)+1; //1~20자 이름 설정
+			}
+		}
+
+	}
+
+}

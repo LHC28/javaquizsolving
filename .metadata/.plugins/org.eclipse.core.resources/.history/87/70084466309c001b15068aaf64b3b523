@@ -1,0 +1,16 @@
+package variable_quiz;
+
+public class Quiz02 {
+
+	public static void main(String[] args) {
+		
+//		시험 성적이 90점 이상이면 'A'학점이고 평점은 4.0 입니다.
+//		시험 성적이 80점 이상이면 'B'학점이고 평점은 3.0 입니다.
+		double a = 4.0;
+		double b = 3.0;
+		System.out.println("시험 성적이 90점 이상이면 'A'학점이고 평점은"+a+"입니다.");
+		System.out.println("시험 성적이 90점 이상이면 'B'학점이고 평점은"+b+"입니다.");
+		
+	}
+
+}

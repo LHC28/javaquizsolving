@@ -1,0 +1,19 @@
+package ¿¬½À¿ë;
+
+import java.util.Random;
+
+public class quiz1 {
+
+	public static void main(String[] args) {
+
+		Random ran = new Random();
+		
+		int participants = ran.nextInt(100000)+1;
+		int[] participant = new int[participants];
+		int[] completion = new int[participants-1];
+		
+		
+
+	}
+
+}

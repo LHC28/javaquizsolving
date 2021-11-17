@@ -1,0 +1,18 @@
+package stage1;
+
+import java.util.Scanner;
+
+public class 더하기사이클 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		int N = scan.nextInt();
+		int count = 0;
+		
+		
+		
+	}
+
+}

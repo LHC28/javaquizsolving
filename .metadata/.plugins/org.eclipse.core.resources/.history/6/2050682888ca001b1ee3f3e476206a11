@@ -1,0 +1,15 @@
+package ¹®Á¦1;
+
+public class main {
+
+	public static void main(String[] args) {
+
+		Human h1 = new Human("È«±æµ¿",20,88);
+		Human h2 = new Human();
+		h1.show_info();
+		h2.show_info();
+		h1.gain_weight(20);
+
+	}
+
+}

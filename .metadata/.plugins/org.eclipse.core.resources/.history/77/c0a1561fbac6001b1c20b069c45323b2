@@ -1,0 +1,38 @@
+package °úÁ¦;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Lion lion = new Lion("»çÀÚ",10,200);
+		Monkey monkey = new Monkey("¿ø¼þÀÌ",5,100);
+		Elephant elephant = new Elephant("ÄÚ³¢¸®",7,300);
+		
+		lion.eat();
+		lion.sleep();
+		
+		lion.bark = "À¸¸£··";
+		lion.bite();
+		lion.fight();
+		
+		System.out.println("======================");
+		
+		monkey.eat();
+		monkey.sleep();
+		
+		monkey.bark = "¿ì³¢³¢";
+		monkey.climb();
+		monkey.whisk();
+		
+		System.out.println("======================");
+		
+		elephant.eat();
+		elephant.sleep();
+		
+		elephant.bark = "³¢ÀÌÀÌ";
+		elephant.nose();
+		elephant.mud();
+		
+	}
+
+}
