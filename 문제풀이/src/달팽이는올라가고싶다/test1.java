@@ -11,15 +11,10 @@ public class test1 {
 		int A = scan.nextInt(); int B = scan.nextInt(); int V = scan.nextInt();
 		int h = 0;
 		int day=0;
-		if(A-B==2) {
+		if(V%(A-B)==0) {
 			day = (V/(A-B))-1;
 		}else {
-			if(V%(A-B+1)!=0) {
-				day = V/(A-B+1)+1;
-			}else {
-				day = V/(A-B+1);
-			}
-			
+			day = (V/(A-B))+1;
 		}
 		System.out.println(day);
 	}
