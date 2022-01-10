@@ -17,7 +17,7 @@ public class 평균은넘겠지 {
 			double avg = sum/scores.length;
 			double count1 = 0;
 			for(int j=0; j<count; j++) {
-				if(scores[j]<avg) {
+				if(scores[j]>avg) {
 					count1+=1;
 				}
 			}
