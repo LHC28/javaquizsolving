@@ -24,6 +24,7 @@ public class 단어공부 {
 				break;
 			}
 		}
+		//확인
 		if(count==-1) {
 			System.out.println("?");
 		}else {
