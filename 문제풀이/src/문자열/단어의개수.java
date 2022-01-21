@@ -13,6 +13,7 @@ public class 단어의개수 {
 		}else {
 			System.out.println(words.length);
 		}
-		
+		// StringTokenizer st = new StringTokenizer(문장," ") 활용가능
+		// st.countTokens()
 	}
 }
